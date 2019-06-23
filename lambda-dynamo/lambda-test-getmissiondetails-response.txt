@@ -1,0 +1,36 @@
+# Test getmissiondetails
+
+# Role SuperDynamoDBQueryPolicy
+ 
+# Request
+{
+  "superhero": "Batman"
+}
+
+# Response:
+{
+  "Items": [
+    {
+      "Villain2": {
+        "S": "Bane"
+      },
+      "SuperHero": {
+        "S": "Batman"
+      },
+      "Villain3": {
+        "S": "Ras Al Ghul"
+      },
+      "MissionStatus": {
+        "S": "In Progress"
+      },
+      "Villain1": {
+        "S": "Joker"
+      }
+    }
+  ],
+  "Count": 1,
+  "ScannedCount": 1
+}
+
+
+
